@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import os
 
-from unidecode import unidecode
 import re
 train= pd.read_csv("./train.csv", names=["place", "dnm", "suff"])
 suffList = []
